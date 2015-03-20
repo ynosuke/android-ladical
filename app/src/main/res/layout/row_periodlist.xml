@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="match_parent"
+  	android:orientation="horizontal"
+  	android:padding="5dp">
+	<TextView
+	    android:id="@+id/periodlist_row_date"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="22sp"
+	    android:textStyle="italic" />
+	<View
+		android:layout_width="0dp"
+		android:layout_height="1dp"
+		android:layout_weight="1" />
+	<LinearLayout
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical">
+  		<TextView 
+  		    android:layout_height="wrap_content" 
+  			android:layout_width="match_parent"
+  			android:textSize="12sp" 
+  			android:gravity="right"
+  			android:text="@string/settings_periodlist_cycle"
+  			android:textColor="#444" />
+  		<TextView 
+  			android:layout_height="wrap_content" 
+  			android:layout_width="match_parent"
+  			android:textSize="12sp" 
+  			android:gravity="right"
+  			android:text="@string/settings_periodlist_length"
+  			android:textColor="#444" />
+	</LinearLayout>
+	<LinearLayout
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical">
+  		<TextView
+  		    android:id="@+id/periodlist_row_cycle"
+  		    android:layout_width="20dp"
+  		    android:layout_height="wrap_content"
+  		    android:textSize="12sp"
+  		    android:textStyle="bold"
+  		    android:gravity="left" />
+
+  		<TextView
+  		    android:id="@+id/periodlist_row_length"
+  		    android:layout_width="20dp"
+  		    android:layout_height="wrap_content"
+  		    android:textSize="12sp"
+  		    android:textStyle="bold"
+  		    android:gravity="left" />
+
+	</LinearLayout>
+</LinearLayout>

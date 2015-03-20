@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_temp"
+        android:showAsAction="never"
+        android:title="@string/menu_temp" />
+    <item
+        android:id="@+id/menu_weight"
+        android:showAsAction="never"
+        android:title="@string/menu_weight" />
+    <item
+        android:id="@+id/menu_ratio"
+        android:showAsAction="never"
+        android:title="@string/menu_ratio" />
+    <item
+        android:id="@+id/menu_weeks"
+        android:showAsAction="never"
+        android:title="@string/menu_weeks" />
+    <item
+        android:id="@+id/menu_help"
+        android:showAsAction="never"
+        android:title="@string/menu_help" />
+
+</menu>

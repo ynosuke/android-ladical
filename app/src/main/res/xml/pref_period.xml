@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ladical="http://schemas.android.com/apk/res/com.ynosuke.android.ladical"
+    android:key="@string/settings_cyclesetting"
+    android:title="@string/settings_cyclesetting" >
+    <com.ynosuke.android.ladical.setting.ListPreferenceEx
+        android:key="@string/pref_cycle_settype"
+        android:title="@string/settings_cyclemode"
+        android:entries="@array/list_cyclemode"
+        android:entryValues="@array/list_cyclemode_values" />
+    <com.ynosuke.android.ladical.setting.ListPreferenceEx
+        android:key="@string/pref_period_cycle"
+        android:title="@string/settings_cycleday"
+        android:entries="@array/list_cycleday"
+        android:entryValues="@array/list_cycleday_values" />
+    <com.ynosuke.android.ladical.setting.ListPreferenceEx
+        android:key="@string/pref_cycle_avg_times"
+        android:title="@string/settings_cyclecalctimes"
+        android:entries="@array/list_cyclecalctimes"
+        android:entryValues="@array/list_cyclecalctimes_values" />
+
+</PreferenceScreen>

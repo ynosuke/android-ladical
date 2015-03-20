@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ladi Cal</string>
+    <string name="calendar">カレンダー</string>
+    <string name="graph">グラフ</string>
+    <string name="setting">設定</string>
+    <string name="prev">&#12296;</string>
+    <string name="next">&#12297;</string>
+    <string name="sun">日</string>
+    <string name="mon">月</string>
+    <string name="tue">火</string>
+    <string name="wed">水</string>
+    <string name="thu">木</string>
+    <string name="fri">金</string>
+    <string name="sat">土</string>
+    <string name="celsius">℃</string>
+    <string name="kg">kg</string>
+    <string name="parsent">%</string>
+    <string name="done">完了</string>
+    <string name="number0">0</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+    <string name="number_dot">.</string>
+    <string name="number_backspace">&#12296;&#12296;</string>
+    <string name="param">項目%d</string>
+    <string name="param1">生理中</string>
+    <string name="param2">排卵痛</string>
+    <string name="param3">不正出血</string>
+    <string name="param4">おりもの</string>
+    <string name="param5">性交</string>
+    <string name="param6">項目6</string>
+    <string name="param7">項目7</string>
+    <string name="param8">項目8</string>
+    <string name="param9">項目9</string>
+    <string name="param10">項目10</string>
+    <string name="term">出産予定日</string>
+    <string name="pregWeeks">%d週目</string>
+    <string name="pregMonths">%dヶ月目</string>
+    <string name="day">%d日</string>
+    <string name="days">%d日目</string>
+    <string name="enabled">使用</string>
+    <string name="disabled">未使用</string>
+    <string name="display">表示</string>
+    <string name="hide">非表示</string>
+    <string name="willPeriod">生理予測日</string>
+    <string name="willOv">排卵予測日</string>
+    <string name="submit">登録</string>
+    <string name="confirm">確認</string>
+    <string name="version">バージョン</string>
+    <string name="close">閉じる</string>
+    
+    <string name="graph_cycle">生理周期</string>
+    <string name="graph_date">日付</string>
+    
+    <string name="settings_category_info">体調情報</string>
+    <string name="settings_todaycycle">今日の周期</string>
+    <string name="settings_todaycyclesummary">次回生理日は%d日後</string>
+    <string name="settings_cyclesetting">生理周期</string>
+    <string name="settings_cyclesettingsummary">過去%d回の生理周期の平均値</string>
+    <string name="settings_periodlength">生理期間</string>
+    <string name="settings_periodlengthsummary">過去%d回の生理期間の平均値</string>
+    <string name="settings_periodlist">生理日一覧</string>
+    <string name="settings_periodlistsummary">過去の生理日の情報を表示します</string>
+    <string name="settings_periodlist_cycle">前回からの間隔：</string>
+    <string name="settings_periodlist_length">生理期間：</string>
+    <string name="settings_cycle">生理周期設定</string>
+    <string name="settings_cyclemode">設定区分</string>
+    <string name="settings_cycleday">周期日数</string>
+    <string name="settings_cyclecalctimes">平均値集計回数</string>
+    <string name="settings_printdata">カレンダーデータ表示</string>
+    
+    <string name="settings_category_setting">設定</string>
+    <string name="settings_theme">表示テーマ</string>
+    <string name="settings_theme_summary">各画面の背景を設定します</string>
+    <string name="settings_weekstart">カレンダー週開始</string>
+    <string name="settings_graphblank">グラフ未記入域表示</string>
+    <string name="settings_graphblank_summary">グラフ画面にて体温等未記入の区間を点線で表示します</string>
+    <string name="settings_passcodeenabled">パスワードロック</string>
+    <string name="settings_passcodeenabled_summary">アプリ起動時にパスワードでロックします</string>
+    <string name="settings_holiday">祝日設定</string>
+    <string name="settings_holiday_summary">カレンダーに表示する祝日を編集します</string>
+    
+    <string name="settings_category_temp">体温管理</string>
+    <string name="settings_tempunit">体温単位</string>
+    <string name="settings_tempmax">体温上限</string>
+    <string name="settings_tempmin">体温下限</string>
+    <string name="settings_templine">体温基準ライン</string>
+    
+    <string name="settings_category_weightratio">体重・体脂肪率</string>
+    <string name="settings_wrenabled">体重・体脂肪率管理有効</string>
+    <string name="settings_wrenabled_summary">体重や体脂肪率を入力できるようにします。</string>
+    <string name="settings_weightmax">体重上限</string>
+    <string name="settings_weightmin">体重下限</string>
+    <string name="settings_ratiomax">体脂肪率上限</string>
+    <string name="settings_ratiomin">体脂肪率下限</string>
+    <string name="settings_drawallchart">全ライン同時表示</string>
+	<string name="settings_drawallchart_summary">グラフ上に体温・体重・体脂肪率を同時に表示します。</string>
+	
+	<string name="settings_category_preg">妊娠時用表示</string>
+	<string name="settings_showpreg">妊娠週数表示</string>
+	<string name="settings_showpreg_summary">出産予定日まで週数を表示します。</string>
+    
+    <string name="settings_category_param">入力項目の設定</string>
+    <string name="settings_param">項目%1$d 【%2$s】</string>
+    <string name="settings_paramname">項目名称</string>
+    <string name="settings_paramimage">イメージ</string>
+    <string name="settings_paramenabled">使用設定</string>
+    <string name="settings_paramdisplay">表示設定</string>
+    
+    <string name="settings_category_backup">データのバックアップ</string>
+    <string name="settings_savedata">バックアップデータを保存</string>
+    <string name="settings_savedata_summary">現在のデータをSDカードに保存します。</string>
+    <string name="settings_readdata">バックアップデータから復元</string>
+    <string name="settings_readdata_summary">SDカードにあるバックアップからデータを復元します。</string>
+    <string name="settings_contact">開発者に問い合わせ</string>
+    
+    <string name="passcode_input_title">パスコード</string>
+    <string name="passcode_input_exp">パスコードを入力してください。</string>
+    <string name="passcode_input2_exp">パスコードが間違っています。再度入力してください。</string>
+    <string name="passcode_set_title">パスコード設定</string>
+    <string name="passcode_set_exp">パスコードを入力してください。</string>
+	<string name="passcode_set2_exp">確認のため再度パスコードを入力してください。</string>
+	
+	<string name="menu_help">ヘルプ</string>
+	<string name="menu_temp">体温表示</string>
+	<string name="menu_weight">体重表示</string>
+	<string name="menu_ratio">体脂肪率表示</string>
+	<string name="menu_weeks">妊娠週数表示</string>
+	<string name="menu_holiday_add">新規作成</string>
+	<string name="menu_holiday_delete">削除</string>
+	<string name="menu_holiday_deleteall">%d年の祝日を削除</string>
+	<string name="menu_holiday_sunday">日曜日を祝日に追加</string>
+	
+	<string name="preg_set_comp">出産予定日が%sに設定されました。\n変更する場合は「出産予定日」をタップして変更してください。</string>
+	<string name="backup_saved">バックアップデータをSDカードに保存しました。</string>
+	<string name="backup_save_failed">バックアップデータの保存に失敗しました。</string>
+	<string name="backup_none">SDカードにバックアップファイルがありません。</string>
+	<string name="backup_read_title">復元するファイルを選択</string>
+	<string name="backup_restore_confirm">以下のデータが存在します。このファイルで復元しますか？\n体温入力:%1$d件\n体重入力:%2$d件\n体脂肪率入力:%3$d件</string>
+
+	<string name="holiday_title">%d年の祝日</string>
+	<string name="holiday_add_title">祝日の新規作成</string>
+	<string name="holiday_add_date">日付</string>
+	<string name="holiday_add_name">名称</string>
+	<string name="holiday_removeall_confirm">%d年の全ての祝日を削除します。よろしいですか？</string>
+	<string name="holiday_addsunday_confirm">%d年の全ての日曜日を祝日に登録します。よろしいですか？</string>
+	
+	<string name="help_calendar_title">カレンダー画面の使い方</string>
+	<string name="help_calendar">・体温等の入力→日付をダブルタップ\n・表示月の変更→表示月の両端の「&#12296;」「&#12297;」をタップ\n・体温以外の表示→メニューから体重、体脂肪率、妊娠週数を選択（※事前に設定で「体重・体脂肪率管理有効」や「妊娠週数表示」を有効にしておく必要あり）\n・体温の色→温度が高い場合は赤、低い場合は青で表示</string>
+	<string name="help_graph_title">グラフ画面の使い方</string>
+	<string name="help_graph">・表示期間の変次→左右にスクロール、それ以上の範囲を見る場合は表示月の両端の「&#12296;」「&#12297;」をタップ\n・体温等の値の範囲を変更→設定タブから変更可\n・体温以外の表示→メニューから体重、体脂肪率を選択（※事前に設定で「体重・体脂肪率管理有効」を有効にしておく必要あり）\n・体温・体重・体脂肪率を同時に表示→設定タブから変更可</string>
+</resources>

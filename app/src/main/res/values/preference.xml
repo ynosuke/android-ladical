@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- テーマ -->
+    <string name="pref_theme">theme</string>
+    
+    <!-- 体温下限 -->
+    <string name="pref_temp_min">temp_min</string>
+    
+    <!-- 体温上限 -->
+    <string name="pref_temp_max">temp_max</string>
+    
+    <!-- 体重下限 -->
+    <string name="pref_weight_min">weight_min</string>
+    
+    <!-- 体重上限 -->
+    <string name="pref_weight_max">weight_max</string>
+    
+    <!-- 体脂肪率下限 -->
+    <string name="pref_ratio_min">ratio_min</string>
+    
+    <!-- 体脂肪率上限 -->
+    <string name="pref_ratio_max">ratio_max</string>
+    
+    <!-- 体温基準ライン表示 -->
+    <!-- <string name="pref_show_tempborder">show_tempborder</string> -->
+    
+    <!-- 体温基準値設定区分 -->
+    <!-- <string name="pref_tempborder_settype">tempborder_settype</string> -->
+    
+    <!-- 平均体温 -->
+    <!-- <string name="pref_temp_avg">temp_avg</string> -->
+    
+    <!-- 固定体温 -->
+    <!-- <string name="pref_temp_fix">temp_fix</string> -->
+    
+    <!-- 平均体温の集計期間 -->
+    <!-- <string name="pref_temp_avg_span">temp_avg_span</string> -->
+    
+    <!-- 体重・体脂肪率管理有効 -->
+    <string name="pref_weightratio_enabled">waightratio_enabled</string>
+    
+    <!-- 週開始曜日 -->
+    <string name="pref_week_start">week_start</string>
+    
+    <!-- 未記入域描画 -->
+    <string name="pref_show_blank_line">show_blank_line</string>
+    
+    <!-- Eメールアドレス -->
+    <string name="pref_address">address</string>
+    
+    <!-- 生理周期の設定区分 -->
+    <string name="pref_cycle_settype">cycle_settype</string>
+    
+    <!-- 生理周期 -->
+    <string name="pref_period_cycle">period_cycle</string>
+    
+    <!-- 生理期間 -->
+    <string name="pref_period_length">period_length</string>
+    
+    <!-- 生理周期の集計回数 -->
+    <string name="pref_cycle_avg_times">period_avg_times</string>
+    
+    <!-- 体温入力桁数 -->
+    <!-- <string name="pref_digit_temp">digit_temp</string> -->
+    
+    <!-- 体重入力桁数 -->
+    <!-- <string name="pref_digit_weight">digit_weight</string> -->
+    
+    <!-- 体脂肪率入力桁数 -->
+    <!-- <string name="pref_digit_ratio">digit_ratio</string> -->
+    
+    <!-- 妊娠週数表示 -->
+    <string name="pref_show_preg">show_preg</string>
+    
+    <!-- 全ライン同時表示 -->
+    <string name="pref_show_all_chart">show_all_chart</string>
+        
+    <!-- パスワード -->
+    <string name="pref_password">passcode</string>
+    
+    <!-- パスワード有効 -->
+    <string name="pref_password_enabled">passcode_enabled</string>
+    
+    <!-- パラメータ -->
+    <string name="pref_param">param%d</string>
+    
+    <!-- パラメータ名称 -->
+    <string name="pref_param_name">param%d_name</string>
+    
+    <!-- パラメータマーク -->
+    <string name="pref_param_mark">param%d_mark</string>
+    
+    <!-- パラメータ使用 -->
+    <string name="pref_param_enabled">param%d_enabled</string>
+    
+    <!-- パラメータ表示 -->
+    <string name="pref_param_display">param%d_display</string>
+    
+    <!-- 祝日設定の追加画面月（実際より-1） -->
+    <string name="pref_holiday_month">holiday_month</string>
+    
+    <!-- 祝日設定の追加画面日（実際より-1） -->
+    <string name="pref_holiday_day">holiday_day</string>
+    
+    <!-- カレンダー、グラフ表示モード -->
+    <string name="pref_displaymode">param_displaymode</string>
+    
+    <!-- パラメータ初期化 -->
+    <string name="pref_init">param_init</string>
+</resources>

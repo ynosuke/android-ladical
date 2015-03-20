@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ladical="http://schemas.android.com/apk/res/com.ynosuke.android.ladical">
+    <com.ynosuke.android.ladical.setting.EditTextPreferenceEx
+        android:key="param4_name"
+        android:title="@string/settings_paramname"
+        android:inputType="text" />
+    <com.ynosuke.android.ladical.setting.ParamImagePreference
+        android:key="param4_mark"
+        ladical:no="1"/>
+    <CheckBoxPreference
+        android:key="param4_enabled"
+        android:title="@string/settings_paramenabled"
+        android:enabled="false" />
+    <CheckBoxPreference
+        android:key="param4_display"
+        android:title="@string/settings_paramdisplay"
+        android:enabled="false" />
+
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout 
+        android:id="@+id/headerView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:paddingTop="3dp"
+		android:paddingBottom="3dp">
+	    <TextView 
+	    	android:id="@+id/prevButton"
+	    	style="@style/title"
+	    	android:layout_width="70dp"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/prev"
+	    	android:textColor="@drawable/button_calendar"/>
+		<TextView
+			android:id="@+id/titleView"
+			style="@style/title"
+			android:layout_weight="1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:focusable="true"
+			android:focusableInTouchMode="true">
+ 		</TextView>
+ 		<TextView 
+	    	android:id="@+id/nextButton"
+	    	style="@style/title"
+	    	android:layout_width="70dp"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/next"
+	    	android:textColor="@drawable/button_calendar"/>
+    </LinearLayout>
+	<ListView
+	    android:id="@android:id/list"
+	    android:choiceMode="singleChoice"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+</LinearLayout>

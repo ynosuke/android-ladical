@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ladical="http://schemas.android.com/apk/res/com.ynosuke.android.ladical"
+    android:key="parentscreen">
+
+    <!--  <PreferenceScreen
+         android:key="@string/settings_printdata"
+         android:title="@string/settings_printdata"/> -->
+
+    <!-- 体調情報 -->
+    <PreferenceCategory android:title="@string/settings_category_info">
+        <com.ynosuke.android.ladical.setting.PreferenceScreenEx
+            android:key="@string/settings_todaycycle"
+            android:title="@string/settings_todaycycle" />
+        <com.ynosuke.android.ladical.setting.PreferenceScreenEx
+            android:key="@string/settings_cyclesetting"
+            android:title="@string/settings_cyclesetting" />
+        <com.ynosuke.android.ladical.setting.PreferenceScreenEx
+            android:key="@string/settings_periodlength"
+            android:title="@string/settings_periodlength"  />
+        <com.ynosuke.android.ladical.setting.PeriodListPreference
+            android:title="@string/settings_periodlist"
+            android:summary="@string/settings_periodlistsummary" />
+    </PreferenceCategory>
+
+    <!-- 設定 -->
+    <PreferenceCategory android:title="@string/settings_category_setting">
+        <com.ynosuke.android.ladical.setting.ListPreferenceEx
+            android:key="@string/pref_theme"
+            android:title="@string/settings_theme"
+            android:summary="@string/settings_theme_summary"
+            android:entries="@array/list_theme"
+            android:entryValues="@array/list_theme_values" />
+        <com.ynosuke.android.ladical.setting.ListPreferenceEx
+            android:key="@string/pref_week_start"
+            android:title="@string/settings_weekstart"
+            android:entries="@array/list_weekstart"
+            android:entryValues="@array/list_weekstart_values" />
+        <CheckBoxPreference
+            android:key="@string/pref_show_blank_line"
+            android:title="@string/settings_graphblank"
+            android:summary="@string/settings_graphblank_summary" />
+        <!-- <CheckBoxPreference
+            android:key="@string/pref_password_enabled"
+            android:title="@string/settings_passcodeenabled"
+            android:summary="@string/settings_passcodeenabled_summary" /> -->
+        <PreferenceScreen
+            android:key="@string/settings_holiday"
+            android:title="@string/settings_holiday"
+            android:summary="@string/settings_holiday_summary"/>
+    </PreferenceCategory>
+
+    <!-- 体温管理 -->
+    <PreferenceCategory android:title="@string/settings_category_temp">
+        <com.ynosuke.android.ladical.setting.ListPreferenceEx
+            android:key="@string/pref_temp_max"
+            android:title="@string/settings_tempmax"
+            android:entries="@array/list_tempmax"
+            android:entryValues="@array/list_tempmax_values" />
+        <com.ynosuke.android.ladical.setting.ListPreferenceEx
+            android:key="@string/pref_temp_min"
+            android:title="@string/settings_tempmin"
+            android:entries="@array/list_tempmin"
+            android:entryValues="@array/list_tempmin_values" />
+    </PreferenceCategory>
+
+    <!-- 体重・体脂肪率管理 -->
+    <PreferenceCategory android:title="@string/settings_category_weightratio">
+        <CheckBoxPreference
+            android:key="@string/pref_weightratio_enabled"
+            android:title="@string/settings_wrenabled"
+            android:summary="@string/settings_wrenabled_summary" />
+        <com.ynosuke.android.ladical.setting.ListPreferenceEx
+            android:key="@string/pref_weight_max"
+            android:title="@string/settings_weightmax"
+            android:entries="@array/list_weightmax"
+            android:entryValues="@array/list_weightmax_values" />
+        <com.ynosuke.android.ladical.setting.ListPreferenceEx
+            android:key="@string/pref_weight_min"
+            android:title="@string/settings_weightmin"
+            android:entries="@array/list_weightmin"
+            android:entryValues="@array/list_weightmin_values" />
+        <com.ynosuke.android.ladical.setting.ListPreferenceEx
+            android:key="@string/pref_ratio_max"
+            android:title="@string/settings_ratiomax"
+            android:entries="@array/list_ratiomax"
+            android:entryValues="@array/list_ratiomax_values" />
+        <com.ynosuke.android.ladical.setting.ListPreferenceEx
+            android:key="@string/pref_ratio_min"
+            android:title="@string/settings_ratiomin"
+            android:entries="@array/list_ratiomin"
+            android:entryValues="@array/list_ratiomin_values" />
+        <CheckBoxPreference
+            android:key="@string/pref_show_all_chart"
+            android:title="@string/settings_drawallchart"
+            android:summary="@string/settings_drawallchart_summary" />
+    </PreferenceCategory>
+
+    <!-- 妊娠モード -->
+    <PreferenceCategory android:title="@string/settings_category_preg">
+        <CheckBoxPreference
+            android:key="@string/pref_show_preg"
+            android:title="@string/settings_showpreg"
+            android:summary="@string/settings_showpreg_summary" />
+        <com.ynosuke.android.ladical.setting.DatePickerPreference
+            android:key="pref_term"
+            android:title="@string/term" />
+    </PreferenceCategory>
+
+    <!-- 入力項目の設定 -->
+    <PreferenceCategory android:title="@string/settings_category_param">
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param1"
+            ladical:no="1"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param2"
+            ladical:no="2"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param3"
+            ladical:no="3"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param4"
+            ladical:no="4"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param5"
+            ladical:no="5"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param6"
+            ladical:no="6"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param7"
+            ladical:no="7"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param8"
+            ladical:no="8"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param9"
+            ladical:no="9"/>
+        <com.ynosuke.android.ladical.setting.ParamPreferenceScreen
+            android:key="param10"
+            ladical:no="10"/>
+    </PreferenceCategory>
+
+    <!-- データのバックアップ -->
+    <PreferenceCategory android:title="@string/settings_category_backup">
+        <PreferenceScreen
+            android:key="@string/settings_savedata"
+            android:title="@string/settings_savedata"
+            android:summary="@string/settings_savedata_summary"/>
+        <PreferenceScreen
+            android:key="@string/settings_readdata"
+            android:title="@string/settings_readdata"
+            android:summary="@string/settings_readdata_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="">
+        <!-- 問い合わせ -->
+        <PreferenceScreen
+            android:key="@string/settings_contact"
+            android:title="@string/settings_contact"/>
+
+        <!-- バージョン -->
+        <com.ynosuke.android.ladical.setting.PreferenceScreenEx
+            android:key="@string/version"
+            android:title="@string/version"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

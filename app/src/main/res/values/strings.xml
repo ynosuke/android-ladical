@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ladi Cal</string>
+    <string name="calendar">Calendar</string>
+    <string name="graph">Graph</string>
+    <string name="setting">Settings</string>
+    <string name="prev">&#12296;</string>
+    <string name="next">&#12297;</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="celsius">℃</string>
+    <string name="kg">kg</string>
+    <string name="parsent">%</string>
+    <string name="done">Done</string>
+    <string name="number0">0</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+    <string name="number_dot">.</string>
+    <string name="number_backspace">&#12296;&#12296;</string>
+    <string name="param">Item%d</string>
+    <string name="param1">period</string>
+    <string name="param2">ovulatory pain</string>
+    <string name="param3">vaginal bleeding</string>
+    <string name="param4">vaginal discharge</string>
+    <string name="param5">intercourse</string>
+    <string name="param6">Item6</string>
+    <string name="param7">Item7</string>
+    <string name="param8">Item8</string>
+    <string name="param9">Item9</string>
+    <string name="param10">Item10</string>
+    <string name="term">Baby due</string>
+    <string name="pregWeeks">%dweeks</string>
+    <string name="pregMonths">%dmonthes</string>
+    <string name="day">%ddays</string>
+    <string name="days">%ddays</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="display">Display</string>
+    <string name="hide">Hide</string>
+    <string name="willPeriod">period</string>
+    <string name="willOv">ovulation</string>
+    <string name="submit">Submit</string>
+    <string name="confirm">Confirm</string>
+    <string name="version">App Version</string>
+    <string name="close">Close</string>
+    
+    <string name="graph_cycle">Period days</string>
+    <string name="graph_date">Date</string>
+    
+    <string name="settings_category_info">Health information</string>
+    <string name="settings_todaycycle">Today\'s cycle</string>
+    <string name="settings_todaycyclesummary">Next period:%ddays after</string>
+    <string name="settings_cyclesetting">Period cycle</string>
+    <string name="settings_cyclesettingsummary">Average of the past %dtimes.</string>
+    <string name="settings_periodlength">Period days</string>
+    <string name="settings_periodlengthsummary">Average of the past %dtimes.</string>
+    <string name="settings_periodlist">Periods list</string>
+    <string name="settings_periodlistsummary">Show a list of the period\'s information.</string>
+    <string name="settings_periodlist_cycle">Interval days:</string>
+    <string name="settings_periodlist_length">Period days:</string>
+    <string name="settings_cycle">Period cycle setting</string>
+    <string name="settings_cyclemode">Set type</string>
+    <string name="settings_cycleday">Cycle days</string>
+    <string name="settings_cyclecalctimes">Averaging times</string>
+    <string name="settings_printdata">カレンダーデータ表示</string>
+    
+    <string name="settings_category_setting">Settings</string>
+    <string name="settings_theme">Display theme</string>
+    <string name="settings_theme_summary">Set the background of display.</string>
+    <string name="settings_weekstart">Week start day</string>
+    <string name="settings_graphblank">Graph blank line</string>
+    <string name="settings_graphblank_summary">show a dot line blank section in the graph.</string>
+    <string name="settings_passcodeenabled">Password lock</string>
+    <string name="settings_passcodeenabled_summary">Lock application with a password in startup.</string>
+    <string name="settings_holiday">Holiday setting</string>
+    <string name="settings_holiday_summary">Edit holidays in the calendar.</string>
+    
+    <string name="settings_category_temp">Basal temperature</string>
+    <string name="settings_tempunit">Temperature unit</string>
+    <string name="settings_tempmax">Temperature max</string>
+    <string name="settings_tempmin">Temperature min</string>
+    <string name="settings_templine">Graph border line</string>
+    
+    <string name="settings_category_weightratio">Weight / Body fat percentage</string>
+    <string name="settings_wrenabled">Enabled</string>
+    <string name="settings_wrenabled_summary">Enable the input of weight and body fat percentage.</string>
+    <string name="settings_weightmax">Weight max</string>
+    <string name="settings_weightmin">Weight min</string>
+    <string name="settings_ratiomax">Body fat max</string>
+    <string name="settings_ratiomin">Body fat min</string>
+    <string name="settings_drawallchart">Show all chart</string>
+	<string name="settings_drawallchart_summary">Show the line of temp, weight, body fat in the same graph.</string>
+	
+	<string name="settings_category_preg">Gestation display</string>
+	<string name="settings_showpreg">Show gestation weeks</string>
+	<string name="settings_showpreg_summary">Show number of weeks until the expected due date.</string>
+    
+    <string name="settings_category_param">Item settings</string>
+    <string name="settings_param">Item%1$d 【%2$s】</string>
+    <string name="settings_paramname">Item name</string>
+    <string name="settings_paramimage">Image</string>
+    <string name="settings_paramenabled">Enabled</string>
+    <string name="settings_paramdisplay">Display</string>
+    
+    <string name="settings_category_backup">Data backup</string>
+    <string name="settings_savedata">Save backup data</string>
+    <string name="settings_savedata_summary">Save current data on the SD-card.</string>
+    <string name="settings_readdata">Restore</string>
+    <string name="settings_readdata_summary">Restore from backup data on the SD-card.</string>
+    <string name="settings_contact">Contact developer</string>
+    
+    <string name="passcode_input_title">Passward</string>
+    <string name="passcode_input_exp">Enter a passward.</string>
+    <string name="passcode_input2_exp">Passward did not match. Try again.</string>
+    <string name="passcode_set_title">Set passward</string>
+    <string name="passcode_set_exp">Enter a passward.</string>
+	<string name="passcode_set2_exp">Re-enter your passward.</string>
+	
+	<string name="menu_help">Help</string>
+	<string name="menu_temp">Basal temperature</string>
+	<string name="menu_weight">Weight</string>
+	<string name="menu_ratio">Body fat parcentage</string>
+	<string name="menu_weeks">Gestation weeks</string>
+	<string name="menu_holiday_add">Add</string>
+	<string name="menu_holiday_delete">Delete</string>
+	<string name="menu_holiday_deleteall">Delete all holidays in %d</string>
+	<string name="menu_holiday_sunday">Add all sunday</string>
+	
+	<string name="preg_set_comp">Expected due date has been set to %s. \nPrease change by tap the "Baby due" If you want to change.</string>
+	<string name="backup_saved">The backup data has been saved to the SD-card.</string>
+	<string name="backup_save_failed">Failed to save the backup data.</string>
+	<string name="backup_none">There is no backup file ont the SD-card.</string>
+	<string name="backup_read_title">Select the restore file</string>
+	<string name="backup_restore_confirm">The following data exists.Do you want to restore the data using this file?\ntemp input:%1$d\nweight input:%2$d\nbody fat input:%3$d</string>
+
+	<string name="holiday_title">Holiday in %d</string>
+	<string name="holiday_add_title">Add a new holiday</string>
+	<string name="holiday_add_date">Date</string>
+	<string name="holiday_add_name">Name</string>
+	<string name="holiday_removeall_confirm">Delete the all holidays of %d. OK?</string>
+	<string name="holiday_addsunday_confirm">Add all sunday of %d to holiday. OK?</string>
+	
+	<string name="help_calendar_title">カレンダー画面の使い方</string>
+	<string name="help_calendar">・体温等の入力→日付をダブルタップ\n・表示月の変更→表示月の両端の「&#12296;」「&#12297;」をタップ\n・体温以外の表示→メニューから体重、体脂肪率、妊娠週数を選択（※事前に設定で「体重・体脂肪率管理有効」や「妊娠週数表示」を有効にしておく必要あり）\n・体温の色→温度が高い場合は赤、低い場合は青で表示</string>
+	<string name="help_graph_title">グラフ画面の使い方</string>
+	<string name="help_graph">・表示期間の変次→左右にスクロール、それ以上の範囲を見る場合は表示月の両端の「&#12296;」「&#12297;」をタップ\n・体温等の値の範囲を変更→設定タブから変更可\n・体温以外の表示→メニューから体重、体脂肪率を選択（※事前に設定で「体重・体脂肪率管理有効」を有効にしておく必要あり）\n・体温・体重・体脂肪率を同時に表示→設定タブから変更可</string>
+
+    <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="back_button_label">Back</string>
+    <string name="next_button_label">Next</string>
+
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="skip_button_label">Skip</string>
+
+</resources>

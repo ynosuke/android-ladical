@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<LinearLayout 
+		android:id="@+id/headerView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+		    <TextView 
+		    	android:id="@+id/prevButton"
+		    	style="@style/title"
+		    	android:layout_width="70dp"
+		    	android:layout_height="wrap_content"
+		    	android:text="@string/prev"
+		    	android:textColor="@drawable/button_calendar"/>
+			<TextView
+				android:id="@+id/titleView"
+				style="@style/title"
+				android:layout_weight="1"
+				android:layout_width="0dp"
+   				android:layout_height="wrap_content"
+   				android:focusable="true"
+   				android:focusableInTouchMode="true">
+   				<requestFocus/>
+   			</TextView>
+   			<TextView 
+		    	android:id="@+id/nextButton"
+		    	style="@style/title"
+		    	android:layout_width="70dp"
+		    	android:layout_height="wrap_content"
+		    	android:text="@string/next"
+		    	android:textColor="@drawable/button_calendar"/>
+	    </LinearLayout>
+	    <LinearLayout 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="2dp"
+			android:orientation="horizontal">
+   			<TextView 
+	            android:id="@+id/week1"
+   				style="@style/weekTitle" />
+	        <TextView 
+	            android:id="@+id/week2"
+	            style="@style/weekTitle" />
+	        <TextView 
+	            android:id="@+id/week3"
+	            style="@style/weekTitle" />
+	        <TextView 
+	            android:id="@+id/week4"
+	            style="@style/weekTitle" />
+	        <TextView 
+	            android:id="@+id/week5"
+	            style="@style/weekTitle" />
+	        <TextView 
+	            android:id="@+id/week6"
+	            style="@style/weekTitle"/>
+	        <TextView 
+	            android:id="@+id/week7"
+	            style="@style/weekTitle" />
+	    </LinearLayout>
+	</LinearLayout>
+    
+	<LinearLayout
+	    android:id="@+id/mainView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+	
+		<com.ynosuke.android.ladical.calendar.CalendarView
+			android:id="@+id/calendarView"
+			android:layout_width="fill_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"/>
+	
+		<LinearLayout
+		    android:id="@+id/detailView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="3dp">
+	        <TextView
+				android:id="@+id/detailDate"
+				android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:textSize="12sp"
+    			android:textColor="#000000" />
+	        <LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginLeft="5dp"
+				android:orientation="horizontal">
+			    
+			    <TableLayout 
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content">
+			        <TableRow>
+				        <ImageView 
+				            android:id="@+id/detailParamMark0"
+				        	style="@style/detailMark"/>
+				        <TextView
+							android:id="@+id/detailParamName0"
+							style="@style/detailTitle" />
+				        <ImageView 
+				            android:id="@+id/detailParamMark3"
+				        	style="@style/detailMark"/>
+				        <TextView
+							android:id="@+id/detailParamName3"
+							style="@style/detailTitle" />
+				    </TableRow>
+				    <TableRow>
+				        <ImageView 
+				            android:id="@+id/detailParamMark1"
+				       		style="@style/detailMark"/>
+				        <TextView
+							android:id="@+id/detailParamName1"
+							style="@style/detailTitle" />
+				        <ImageView 
+				            android:id="@+id/detailParamMark4"
+				        	style="@style/detailMark"/>
+				        <TextView
+							android:id="@+id/detailParamName4"
+							style="@style/detailTitle" />
+				    </TableRow>
+					<TableRow>
+				        <ImageView 
+				            android:id="@+id/detailParamMark2"
+				       		style="@style/detailMark"/>
+				        <TextView
+							android:id="@+id/detailParamName2"
+							style="@style/detailTitle" />
+				        <ImageView 
+				            android:id="@+id/detailParamMark5"
+				        	style="@style/detailMark"/>
+				        <TextView
+							android:id="@+id/detailParamName5"
+							style="@style/detailTitle" />
+				    </TableRow>
+				</TableLayout>
+				<ScrollView
+				    android:layout_width ="match_parent"
+		        	android:layout_height="match_parent">
+					<TextView
+						android:id="@+id/detailMemo"
+						android:layout_width="match_parent"
+		 				android:layout_height="wrap_content"
+		 				android:layout_marginLeft="5dp"
+		 				android:textSize="13sp"
+		 				android:textColor="#444444"/>
+				</ScrollView>
+			</LinearLayout>
+   		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
